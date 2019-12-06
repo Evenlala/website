@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,Chrome=1" />
+    <meta http-equiv="X-UA-Compatible" content="IE=9" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>case</title>
+    <link rel="stylesheet" href="css/case.css">
+    <link rel="stylesheet" href="dist/bootstrap.css">
+    <script src="dist/jquery-1.12.4.min.js"></script>
+    <script src="dist/bootstrap.min.js"></script>
+    <script src="dist/html5shiv.min.js"></script>
+    <script src="dist/respond.min.js"></script>
+</head>
+<body>
+<div class="header"></div>
+<div class="ban row">
+    <img class="col-md-12 col-sm-12 col-xs-12" src="img/case.png" alt="">
+</div>
+<div class="content">
+    <div class="row">
+        <div class="col-md-2 col-sm-1 "></div>
+        <div class="box col-md-8 col-sm-10">
+            <div class="kp row">
+                <div class="imgbox col-md-3 col-sm-5 col-xs-12">
+                    <img src="img/index/tc9.png" alt="">
+                </div>
+                <div class="wzBox col-md-9 col-sm-7 col-xs-12">
+                    <p class="til">西南医科大学会议系统</p>
+                    <p class="js">
+                        西南医科大学（Southwest Medical University），坐落在国家历史文化名城——泸州市，是四川省属普通本科高等院校。是国
+                        家“973计划”承担高校、首批“临床医学硕士专业学位研究生培养模式改革试点高校”、 临床医学专业综合改革试点高校；入
+                        选“卓越医生教育培养计划”、“卓越医生（中医）教育培养计划”、“四川2011计划”、“四川省卓越法律人...
+                    </p>
+                    <div class="btn">了解更多</div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-2 col-sm-1 "></div>
+    </div>
+    <div class="row">
+        <div class="col-md-2 col-sm-1 "></div>
+        <div class="box col-md-8 col-sm-10">
+            <div class="kp row">
+                <div class="imgbox col-md-3 col-sm-5 col-xs-12">
+                    <img src="img/index/dl.png" alt="">
+                </div>
+                <div class="wzBox col-md-9 col-sm-7 col-xs-12">
+                    <p class="til">四川交投集团会议系统</p>
+                    <p class="js">
+                        四川交投集团是四川省委、省政府决定组建的国有特大型企业，出资人为四川发展(控股)有限责任公司，注册资本350亿元。四川
+                        交投集团由集团公司本部和四川高速公路建设开发总公司、四川成渝高速公路股份有限公司、四川省港航开发有限责任公司三大
+                        核心子公司组成，拥有中国西部唯一的基建类内地和香港上市的A+H股上市公司。目前，四川交投集团建成和在建...
+                    </p>
+                    <div class="btn">了解更多</div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-2 col-sm-1 "></div>
+    </div>
+    <div class="row">
+        <div class="col-md-2 col-sm-1 "></div>
+        <div class="box col-md-8 col-sm-10">
+            <div class="kp row">
+                <div class="imgbox col-md-3 col-sm-5 col-xs-12">
+                    <img src="img/index/dly.png" alt="">
+                </div>
+                <div class="wzBox col-md-9 col-sm-7 col-xs-12">
+                    <p class="til">天府新区成都管委会会议系统</p>
+                    <p class="js">
+
+                        四川省成都天府新区成都片区管理委员会（简称天府新区成都管委会）是成都市人民政府的派出机关，成立于2013年7月，与中
+                        共成都市委员会的派出机关——中共四川省成都天府新区成都片区工作委员会（简称天府新区成都党工委）合署办公，机构规
+                        格为正厅级 。
+
+                    </p>
+                    <div class="btn">了解更多</div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-2 col-sm-1 "></div>
+    </div>
+</div>
+<div class="footer"></div>
+
+</body>
+<script>
+    $('.header').load('bourne.html')
+    $('.footer').load('footer.html')
+    $('.header').load('bourne.html',function () {
+        $(".btnLi").removeClass('headerActive');
+        $(".headbox .btnLi:eq(3)").addClass('headerActive');
+
+
+    })
+    $('.footer').load('footer.html')
+</script>
+</html>

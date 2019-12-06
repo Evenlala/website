@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,Chrome=1" />
+    <meta http-equiv="X-UA-Compatible" content="IE=9" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>aboutUs</title>
+    <link rel="stylesheet" href="css/aboutUs.css">
+    <link rel="stylesheet" href="dist/bootstrap.css">
+    <script src="dist/jquery-1.12.4.min.js"></script>
+    <script src="dist/bootstrap.min.js"></script>
+    <script src="dist/html5shiv.min.js"></script>
+    <script src="dist/respond.min.js"></script>
+</head>
+<body>
+<div class="header"></div>
+<div class="ban row">
+    <img class="col-md-12 col-sm-12 col-xs-12" src="img/about/gywm.png" alt="">
+</div>
+<div class="content row ">
+    <div class="col-md-2 col-sm-1"></div>
+    <div class="col-md-8 col-sm-10 col-xs-12">
+        <div class="row div1">
+            <div class="row">
+                <div class="leftImg col-md-6 col-sm-6 col-xs-12">
+                    <img class="img1" src="img/about/tc2.png" alt="">
+                </div>
+                <div class="divRight col-md-6 col-sm-6 col-xs-12">
+
+                    <div class="rightImg col-md-3 col-sm-4 col-xs-2">
+                        <img  src="img/about/bourne.png" alt="">
+                    </div>
+
+                    <div class="col-md-12 col-sm-12 col-xs-12">
+                        <p class="p1">
+                            成都铂恩科技有限公司成立于2014年09月05日，注册地位于四川省成都市
+                            天府新区华阳街道天府大道南段846号。经营范围包括计算机软硬件开发、技术
+                            服务、技术咨询、技术转让；信息系统集成数据处理；销售：计算机软硬件、安
+                            防产品、音响设备、灯光设备、数字电视设备、办公设备。（依法须经批准的项
+                            目，经相关部门批准后方可展开经营活动）。
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row contentUs">
+                <div class="lxwm col-md-12 col-sm-12 col-xs-12">联系我们</div>
+                <div class="dt col-md-12 col-sm-12 col-xs-12">
+                    <img src="img/about/tc3.png" alt="">
+                </div>
+                <div class="address">
+                    <p>地点：四川省成都市天府新区华阳街道天府大道南段846号</p>
+                    <p>邮编：610000 </p>
+                    <p>手机：028-85105150</p>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+    <div class="col-md-2 col-sm-1"></div>
+</div>
+<div class="footer"></div>
+</body>
+<script>
+    var rightHeight = $('.img1').height()+'px';
+    console.log(rightHeight,'rightHeight')
+    $('.divRight').css('height',rightHeight);
+    $('.header').load('bourne.html')
+    $('.footer').load('footer.html')
+    $('.header').load('bourne.html',function () {
+        $(".btnLi").removeClass('headerActive');
+        $(".headbox .btnLi:eq(2)").addClass('headerActive');
+    })
+    $('.footer').load('footer.html')
+</script>
+</html>

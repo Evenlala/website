@@ -1,0 +1,293 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-size: 62.5%;
+}
+.clear {
+  clear: both;
+}
+/*.row{
+  margin-right: -15px;
+  margin-left: 0;
+}*/
+.col-xs-1,
+.col-sm-1,
+.col-md-1,
+.col-lg-1,
+.col-xs-2,
+.col-sm-2,
+.col-md-2,
+.col-lg-2,
+.col-xs-3,
+.col-sm-3,
+.col-md-3,
+.col-lg-3,
+.col-xs-4,
+.col-sm-4,
+.col-md-4,
+.col-lg-4,
+.col-xs-5,
+.col-sm-5,
+.col-md-5,
+.col-lg-5,
+.col-xs-6,
+.col-sm-6,
+.col-md-6,
+.col-lg-6,
+.col-xs-7,
+.col-sm-7,
+.col-md-7,
+.col-lg-7,
+.col-xs-8,
+.col-sm-8,
+.col-md-8,
+.col-lg-8,
+.col-xs-9,
+.col-sm-9,
+.col-md-9,
+.col-lg-9,
+.col-xs-10,
+.col-sm-10,
+.col-md-10,
+.col-lg-10,
+.col-xs-11,
+.col-sm-11,
+.col-md-11,
+.col-lg-11,
+.col-xs-12,
+.col-sm-12,
+.col-md-12,
+.col-lg-12 {
+  padding-right: 0px;
+  padding-left: 0px;
+}
+body .example {
+  margin-right: 0px !important;
+  margin-left: 0px !important;
+  font-size: 40px;
+  text-align: center;
+  width: 100%;
+  background-color: #fff;
+}
+body .example .carousel-item {
+  color: #fff;
+  font-family: Arial Black;
+}
+body .center {
+  width: 100%;
+  margin-right: 0px !important;
+  margin-left: 0px !important;
+}
+body .center .centerTil {
+  text-align: center;
+  margin-top: 40px;
+}
+body .center .centerTil .p1 {
+  display: inline-block;
+  border-bottom: 1px solid #e8e8e8;
+  height: 60px;
+  font-size: 46px;
+  font-family: Microsoft YaHei;
+  font-weight: bold;
+  color: #333333;
+  line-height: 52px;
+  width: 300px;
+  margin: 0 0 0 0;
+}
+body .center .centerTil .line {
+  /*border-bottom: 1px solid #2e6da4;*/
+  width: 100px;
+  height: 4px;
+  background-color: #2e6da4;
+  margin: 0 auto;
+}
+body .center .centerTil .centerName {
+  font-size: 18px;
+  line-height: 40px;
+  color: #333;
+}
+body .center .case {
+  width: 100%;
+}
+body .center .case .card {
+  border-radius: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-top: 30px;
+}
+body .center .case .card .detialed {
+  box-shadow: 0px 3px 16px 0px rgba(24, 144, 255, 0.2);
+  margin: 0 auto;
+  display: inline-block;
+  width: 100%;
+}
+body .center .case .card .detialed .zw {
+  /*padding-left: 20px;*/
+  display: inline-block;
+  width: 40%;
+  float: left;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+body .center .case .card .detialed .zw img {
+  bottom: 0;
+  vertical-align: middle;
+  display: block;
+  height: auto;
+  max-width: 100%;
+}
+body .center .case .card .detialed .jj {
+  float: left;
+  width: 60%;
+  display: inline-block;
+}
+body .center .case .card .detialed .jj .til {
+  margin-top: 10px;
+  /*margin-top: 40px;
+
+              margin-left: 20px;*/
+}
+body .center .case .card .detialed .jj .content {
+  font-size: 16px;
+  line-height: 20px;
+  word-wrap: break-word;
+  word-break: normal;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+body .center .case .card .detialed:hover {
+  box-shadow: 0px 3px 16px 0px rgba(24, 144, 255, 0.6);
+}
+body .aboutUs {
+  /*margin-right: 0px !important;
+    margin-left: 0px !important;*/
+  /*max-width: 100%;
+    height: auto;*/
+  margin-right: 0px !important;
+  margin-left: 0px !important;
+  width: 100%;
+  height: 456px;
+  background: url("../img/index/background.png") no-repeat center;
+  margin-top: 50px;
+  background-position: center 0;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+  -moz-background-size: cover;
+  -ms-background-size: cover;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+body .aboutUs .aboutCenter {
+  margin-top: 20px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
+  background: #ffffff;
+  box-shadow: 0px 3px 16px 0px rgba(24, 144, 255, 0.2);
+  border-radius: 10px;
+}
+body .aboutUs .aboutCenter .imgBox {
+  padding-right: 10px ;
+  padding-left: 10px ;
+}
+body .aboutUs .aboutCenter .imgBox #indexImg {
+  max-width: 100% ;
+  height: auto;
+}
+body .aboutUs .aboutCenter .wzBox .aboutwz {
+  padding-right: 10px ;
+  padding-left: 10px ;
+  overflow: hidden;
+}
+body .aboutUs .aboutCenter .wzBox .aboutwz .tilName {
+  font-size: 34px;
+  font-weight: bold;
+  line-height: 60px;
+  width: 400px;
+}
+body .aboutUs .aboutCenter .wzBox .aboutwz .eng {
+  font-size: 18px;
+  font-family: Microsoft YaHei;
+  font-weight: 400;
+  color: rgba(51, 51, 51, 0.35);
+  line-height: 60px;
+  border-top: 2px solid #319CFF;
+}
+body .aboutUs .aboutCenter .wzBox .aboutwz .nr {
+  overflow: hidden;
+  font-size: 16px;
+  font-family: Microsoft YaHei;
+  font-weight: 400;
+  color: #383838;
+  line-height: 24px;
+}
+body .productCase {
+  width: 100%;
+  margin-right: 0px !important;
+  margin-left: 0px !important;
+  margin-bottom: 40px;
+}
+body .productCase .centerTil {
+  text-align: center;
+  margin-top: 40px;
+}
+body .productCase .centerTil .p1 {
+  display: inline-block;
+  border-bottom: 1px solid #e8e8e8;
+  height: 60px;
+  font-size: 46px;
+  font-family: Microsoft YaHei;
+  font-weight: bold;
+  color: #333333;
+  line-height: 52px;
+  width: 300px;
+  margin: 0 0 0 0;
+}
+body .productCase .centerTil .line {
+  /*border-bottom: 1px solid #2e6da4;*/
+  width: 100px;
+  height: 4px;
+  background-color: #2e6da4;
+  margin: 0 auto;
+}
+body .productCase .centerTil .centerName {
+  font-size: 18px;
+  line-height: 40px;
+  color: #333;
+}
+body .productCase .coustomCase .caseBox {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+body .productCase .coustomCase .caseBox .padd {
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+body .productCase .coustomCase .caseBox .padd .caseCard {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+  background: rgba(255, 255, 255, 0.1);
+  box-shadow: 0px 0px 16px 0px rgba(24, 144, 255, 0.2);
+  border-radius: 20px;
+}
+body .productCase .coustomCase .caseBox .padd .caseCard .cardBox .cardImg img {
+  width: 100%;
+  height: auto;
+}
+body .productCase .coustomCase .caseBox .padd .caseCard:hover {
+  box-shadow: 0px 0px 16px 0px rgba(24, 144, 255, 0.6);
+}
+/*# sourceMappingURL=index.css.map */
